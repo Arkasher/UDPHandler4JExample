@@ -12,7 +12,7 @@ public class PacketUtils {
      * Registra o próprio pacote para ser tratado no servidor
      */
     public static void register() {
-        PacketHandler.registerJavaPacket(Package.getPackage("com.yan.udphandler4jexample.packets"));
+        PacketHandler.registerJavaPackage(Package.getPackage("com.yan.udphandler4jexample.packets"));
     }
     
 }
